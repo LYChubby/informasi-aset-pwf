@@ -1,4 +1,4 @@
-<x-guest-layout>
+<x-app-layout>
     @push('styles')
         @vite(['resources/css/auth/login-register.css'])
     @endpush
@@ -37,7 +37,8 @@
                     <span class="error">{{ $message }}</span>
                 @enderror
                 
-                <input type="password" name="password_confirmation" placeholder="Confirm Password" required />
+                <input type="password" name="password_confirmation" id="password-confirm" placeholder="Confirm Password" required />
+
                 
                 <button type="submit">Sign Up</button>
             </form>
@@ -93,4 +94,4 @@
     @push('scripts')
         @vite(['resources/js/auth/login-register.js'])
     @endpush
-</x-guest-layout>
+</x-app-layout>
