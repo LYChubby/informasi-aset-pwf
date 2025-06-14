@@ -5,7 +5,7 @@
         <!-- Sidebar -->
         <div class="w-64 bg-white shadow-lg">
             <div class="flex items-center justify-center h-16 bg-gradient-to-r from-[#ff4b2b] to-[#ff416c]">
-                <h1 class="text-black font-bold text-xl">AssetManager</h1>
+                <h1 class="text-white font-bold text-xl">AssetManager</h1>
             </div>
             <nav class="mt-6">
                 <div class="px-6">
@@ -13,7 +13,7 @@
                 </div>
                 
                 <!-- Dashboard -->
-                <a href="#" class="flex items-center px-6 py-3 mt-2 text-gray-600 bg-gradient-to-r from-[#ff4b2b] to-[#ff416c] border-l-4 border-white">
+                <a href="#" class="flex items-center px-6 py-3 mt-2 text-white bg-gradient-to-r from-[#ff4b2b] to-[#ff416c] border-l-4 border-white">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                     </svg>
@@ -143,63 +143,64 @@
                             </div>
                         </div>
                         <!-- Charts Section -->
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 ">
-                        <!-- Aset Chart -->
-                        <div class="bg-white p-6 rounded-lg shadow">
-                            <div class="flex justify-between items-center mb-4">
-                                <h3 class="text-lg font-semibold">Distribusi Aset</h3>
-                                <div class="flex space-x-2">
-                                    <button class="px-3 py-1 text-xs bg-[#ff4b2b] text-white rounded-md">Bulanan</button>
-                                    <button class="px-3 py-1 text-xs bg-gray-100 text-gray-600 rounded-md">Tahunan</button>
-                                </div>
-                            </div>
-                            <div class="h-64 bg-gray-50 rounded flex items-center justify-center">
-                                <p class="text-gray-400">Visualisasi Grafik Aset</p>
-                            </div>
-                        </div>
                         
-                        <!-- Recent Activity -->
-                        <div class="bg-white p-6 rounded-lg shadow">
-                            <h3 class="text-lg font-semibold mb-4">Aktivitas Terkini</h3>
-                            <div class="space-y-4">
-                                <div class="flex items-start">
-                                    <div class="bg-[#ff416c]/10 p-2 rounded-full mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#ff416c]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <p class="text-sm font-medium">Aset baru ditambahkan (ID: AST-2023-056)</p>
-                                        <p class="text-xs text-gray-500">2 menit yang lalu</p>
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 p-6 ">
+                            <!-- Aset Chart -->
+                            <div class="bg-white p-6 rounded-lg shadow">
+                                <div class="flex justify-between items-center mb-4">
+                                    <h3 class="text-lg font-semibold">Distribusi Aset</h3>
+                                    <div class="flex space-x-2">
+                                        <button class="px-3 py-1 text-xs bg-[#ff4b2b] text-white rounded-md">Bulanan</button>
+                                        <button class="px-3 py-1 text-xs bg-gray-100 text-gray-600 rounded-md">Tahunan</button>
                                     </div>
                                 </div>
-                                <div class="flex items-start">
-                                    <div class="bg-[#ff4b2b]/10 p-2 rounded-full mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#ff4b2b]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <p class="text-sm font-medium">Akun baru dibuat (user: johndoe)</p>
-                                        <p class="text-xs text-gray-500">15 menit yang lalu</p>
-                                    </div>
-                                </div>
-                                <div class="flex items-start">
-                                    <div class="bg-[#ff416c]/10 p-2 rounded-full mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#ff416c]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <p class="text-sm font-medium">Aset diperbaiki (ID: AST-2023-012)</p>
-                                        <p class="text-xs text-gray-500">1 jam yang lalu</p>
-                                    </div>
+                                <div class="h-64 bg-gray-50 rounded flex items-center justify-center">
+                                    <p class="text-gray-400">Visualisasi Grafik Aset</p>
                                 </div>
                             </div>
-                            <button class="mt-4 text-sm text-[#ff416c] font-medium">Lihat Semua Aktivitas →</button>
+                            
+                            <!-- Recent Activity -->
+                            <div class="bg-white p-6 rounded-lg shadow">
+                                <h3 class="text-lg font-semibold mb-4">Aktivitas Terkini</h3>
+                                <div class="space-y-4">
+                                    <div class="flex items-start">
+                                        <div class="bg-[#ff416c]/10 p-2 rounded-full mr-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#ff416c]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p class="text-sm font-medium">Aset baru ditambahkan (ID: AST-2023-056)</p>
+                                            <p class="text-xs text-gray-500">2 menit yang lalu</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="bg-[#ff4b2b]/10 p-2 rounded-full mr-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#ff4b2b]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p class="text-sm font-medium">Akun baru dibuat (user: johndoe)</p>
+                                            <p class="text-xs text-gray-500">15 menit yang lalu</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <div class="bg-[#ff416c]/10 p-2 rounded-full mr-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#ff416c]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <p class="text-sm font-medium">Aset diperbaiki (ID: AST-2023-012)</p>
+                                            <p class="text-xs text-gray-500">1 jam yang lalu</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="mt-4 text-sm text-[#ff416c] font-medium">Lihat Semua Aktivitas →</button>
+                            </div>
                         </div>
-                    </div>
-                    </div>
 
                     
 
