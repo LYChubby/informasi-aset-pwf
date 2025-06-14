@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-guest-layout>
     @push('styles')
         @vite(['resources/css/auth/login-register.css'])
     @endpush
@@ -93,4 +93,4 @@
     @push('scripts')
         @vite(['resources/js/auth/login-register.js'])
     @endpush
-</x-app-layout>
+</x-guest-layout>
